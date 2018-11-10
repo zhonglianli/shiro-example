@@ -40,7 +40,6 @@ public class AtLeastTwoAuthenticatorStrategy extends AbstractAuthenticationStrat
                 info = merge(singleRealmInfo, aggregateInfo);
             }
         }
-
         return info;
     }
 
